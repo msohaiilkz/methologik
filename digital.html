@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/favicon/FaF-Icon.png" type="image/x-icon">
+  <title>Methologik</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <!-- font------------ -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-- font-2----------- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&display=swap"
+    rel="stylesheet">
+  <!-- font-3-------- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+    rel="stylesheet">
+  <!-- font-4-------- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+    rel="stylesheet">
+  <!-- font-5-------- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+    rel="stylesheet">
+  <!-- FONT-6--------- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+    rel="stylesheet">
+  <!-- font-7 Railway -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap"
+    rel="stylesheet">
+  <!-- font-8 Monteserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/Css/responsive.css">
+  <link rel="stylesheet" href="./assets/Css/style.css">
+
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- cursor ------->
+    <div id="cursor"></div>
+    <!-- <div id="cursor-blur"></div> -->
+
+    <!-- Navbar------->
+    <nav id="nav" class="navbar navbar-expand-lg fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarToggle">
+          <i class="fas fa-bars" id="navbarToggleIcon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="mx-auto">
+            <ul class="navbar-nav mb-2">
+              <!-- strategy---------- -->
+              <li class="nav-item dropdown  dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Strategic Expertise
+                </a>
+                <div class="dropdown-menu custom-dropdown">
+                  <div class="mega-content px-md-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 col-sm-6 py-4  border-end nav-pad">
+                          <h1 class="nav-sub-heading">Strategic Expertise</h1>
+                          <div class="list-group ">
+                            <p class="nav-sub-p">Shaping impactful strategies for sustained growth.</p>
+                          </div>
+                        </div>
+
+                        <div class="col2s col-lg-4 col-sm-6 py-4 border-end nav-pad">
+                          <h5 class="nav-sec-sub">Strategic Expertise</h5>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./strategy.html">Strategic
+                              Insights & Advisory Services</a>
+                            <p>Delivering actionable guidance for transformative results.</p>
+                          </div>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./dataAnalytics.html">Data &
+                              Analytics</a>
+                            <p>Decoding data to uncover powerful opportunities.</p>
+                          </div>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./digital.html">Digital
+                              Implementation & Delivery </a>
+                            <p>Seamlessly executing strategies for measurable impact.</p>
+                          </div>
+                        </div>
+
+                        <div class="col3s col-lg-4 col-sm-6 py-4  nav-pad">
+                          <h6 class="nav-sec-sub"></h6>
+                          <div class="list-group">
+                            <a class="list-group-item mt-3" href="#">Digital Implementation & Delivery</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Program Management </a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Product Engineering</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">DevOps & Sec</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Managed Services</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- offering------------ -->
+              <li class="nav-item dropdown  dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Our Offerings
+                </a>
+                <div class="dropdown-menu custom-dropdown">
+                  <div class="mega-content px-md-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 col-sm-6 py-4  border-end nav-pad">
+                          <h1 class="nav-sub-heading"> Our Offerings</h1>
+                          <div class="list-group ">
+                            <p class="nav-sub-p">Empowering businesses with cutting edge solutions tailored to their
+                              needs.</p>
+                          </div>
+                        </div>
+
+                        <div class="offering-col1 col-lg-4 col-sm-6 py-4 border-end nav-pad">
+                          <h5 class="nav-sec-sub">Our Offering</h5>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./OurOffering/software-development.html">Software
+                              Development</a>
+                            <p>Custom, scalable software.</p>
+                          </div>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./OurOffering/design-side.html">Design Side</a>
+                            <p>Beautiful, user-friendly designs.</p>
+                          </div>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./OurOffering/cloud.html">Cloud</a>
+                            <p>Secure, scalable cloud services.</p>
+                          </div>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./OurOffering/artificial-intelligence.html">Artificial
+                              Intelligence</a>
+                            <p>Smart, data-driven AI.</p>
+                          </div>
+                          <div class="list-group mt-3">
+                            <a class="list-group-item" href="./OurOffering/digital-marketing.html">Digital
+                              Marketing</a>
+                            <p>Effective digital growth strategies..</p>
+                          </div>
+                        </div>
+
+                        <div class="offering-col2 col-lg-4 col-sm-6 py-4  nav-pad">
+                          <h6 class="nav-sec-sub"></h6>
+                          <div class="list-group">
+                            <a class="list-group-item mt-3" href="#">Software Development</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Software
+                              Discovery & Ideation </a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Enterprises
+                              Implementation Services</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Web App
+                              Development</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Mobile App
+                              Development</a>
+                            <a class="list-group-item mt-3 nav-last-col" href="#">Custom
+                              Solutions</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- our-brands---------------- -->
+              <li class="nav-item dropdown  dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Our Brand
+                </a>
+                <div class="dropdown-menu custom-dropdown">
+                  <div class="mega-content px-md-4">
+                    <div class="container">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-lg-3 col-sm-6 py-4  border-end nav-pad">
+                          <h1 class="nav-sub-heading"> Our Brand</h1>
+                          <div class="list-group ">
+                            <p class="nav-sub-p">Innovative ventures driving impactful solutions.</p>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 py-2  nav-pad">
+                          <h5 class="nav-sec-sub">Our Brand</h5>
+                          <div class="list-group mt-4">
+                            <a class="list-group-item" href="./Brands/imdady.html">Imdady</a>
+                            <p>Revolutionizing e-commerce with seamless delivery.</p>
+                          </div>
+
+                        </div>
+                        <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                          <h5 class="nav-sec-sub"></h5>
+                          <div class="list-group mt-4">
+                            <a class="list-group-item" href="./Brands/pickia.html">Pickia</a>
+                            <p>Empowering communities through digital aid solutions.</p>
+                          </div>
+
+                        </div>
+                        <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                          <h5 class="nav-sec-sub"></h5>
+                          <div class="list-group mt-4">
+                            <a class="list-group-item" href="./Brands/analytical.html">Analytics Nest</a>
+                            <p>Transforming data into actionable insights.</p>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- "What Defines Us" Dropdown -->
+              <li class="nav-item dropdown  dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  What Defines
+                </a>
+                <div class="dropdown-menu custom-dropdown">
+                  <div class="mega-content px-md-4">
+                    <div class="container">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-lg-3 col-sm-6 py-4  border-end nav-pad">
+                          <h1 class="nav-sub-heading"> What Defines</h1>
+                          <div class="list-group ">
+                            <p class="nav-sub-p">Building a legacy of innovation, collaboration, and excellence.</p>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                          <h5 class="nav-sec-sub">About Company</h5>
+                          <div class="list-group mt-4">
+                            <a class="list-group-item" href="./WhatDefine/company-culture.html">Company Culture</a>
+                            <p>Fostering a workplace where creativity thrives and ideas come to life.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                          <h5 class="nav-sec-sub"></h5>
+                          <div class="list-group mt-4">
+                            <a class="list-group-item" href="./WhatDefine/our-team.html">Our Team</a>
+                            <p>A passionate group of professionals dedicated to transforming visions into reality.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 py-4 nav-pad">
+                          <h5 class="nav-sec-sub"></h5>
+                          <div class="list-group mt-4">
+                            <a class="list-group-item" href="./WhatDefine/career.html">Careers</a>
+                            <p>Join us to shape the future with groundbreaking solutions and limitless opportunities.
+                            </p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+
+            </ul>
+          </div>
+          <div class="d-flex">
+            <a class="btn top-cta bg-black rounded-pill px-5 text-white" href="#contact-us" role="button">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header ------>
+    <section class="bg-white" id="banner">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="banner main-headings col-12 text-center" data-aos="fade-up">
+            <h1 data-aos="fade-up" data-aos-offset="100" class="mb-4">Excellence in Program Management <br> and
+              <span>Strategic</span> Oversight
+            </h1>
+            <p data-aos="fade-up" data-aos-offset="200">Providing seamless execution with an emphasis on precision,
+              <br>efficiency, and results.</p>
+            <img data-aos="fade-right" data-aos-offset="200" class="img1" src="./assets/img/vectors/identify.png"
+              alt="">
+            <!-- <img data-aos="fade-left" data-aos-offset= "200" class="img2" src="./assets/img/vectors/PLAN.png" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consulting -->
+    <section id="consulting ">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center digital">
+
+          <div class="col-12 col-lg-5 col-md-6 col-sm-12">
+            <div data-aos="fade-down" data-aos-offset="100">
+              <img src="./assets/img/cards/skil.png" alt="" class="img-fluid p-4 rounded-4 skill digi-img-parent">
+
+              <img data-aos="fade-right" data-aos-offset="100" src="./assets/img/vectors/digiVEctor.png" alt="img"
+                class="img-fluid digi-img">
+              <img data-aos="fade-right" data-aos-offset="150" src="./assets/img/vectors/digiVEctor.png" alt="img"
+                class="img-fluid dig-img">
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-7 col-md-6 col-sm-12">
+            <div class="consulting digi-consulting">
+              <h2 data-aos="fade-up" data-aos-offset="100">Program Management</h2>
+
+              <p data-aos="fade-up" data-aos-offset="200">Plays a vital role in overseeing a collection of related
+                projects aimed at achieving overarching business goals. Our Program Management services ensure ideal
+                coordination and alignment across these projects, optimizing resource allocation and driving successful
+                results. We emphasize achieving your objectives through efficient process management, proactive risk
+                mitigation, and strategic oversight.
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--  pRODUCT STRATEGY -->
+    <section id="product">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+
+          <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+            <div class="consulting consulting-product">
+              <h2 data-aos="fade-up" data-aos-offset="100">Product Engineering</h2>
+
+              <p data-aos="fade-up" data-aos-offset="150">Transform your ideas into high-impact solutions with our
+                Product Engineering services. We specialize in crafting innovative and reliable digital products,
+                ensuring they are both functional and market-ready. Our focus is on delivering products that drive
+                success and meet your specific business objectives.</p>
+
+              <div class="product-eng mt-5">
+
+                <div class="d-flex align-items-center gap-3 mt-3" data-aos="fade-up" data-aos-offset="100">
+                  <img src="./assets/img/vectors/tic.png" alt="">
+                  <div>
+                    <h1>Advanced Development</h1>
+                    <p>Utilize the latest technologies to build robust and scalable products.</p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 mt-3" data-aos="fade-up" data-aos-offset="100">
+                  <img src="./assets/img/vectors/tic.png" alt="">
+                  <div>
+                    <h1>User-Centric Design</h1>
+                    <p>Create solutions that enhance user experience and meet market
+                      needs.</p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 mt-3" data-aos="fade-up" data-aos-offset="100">
+                  <img src="./assets/img/vectors/tic.png" alt="">
+                  <div>
+                    <h1>End-to-End Support</h1>
+                    <p>Provide comprehensive support from concept to deployment and beyond.</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="100">
+            <div>
+              <img src="./assets/img/Gif's/GIF6.gif" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manage Service--- -->
+    <section>
+      <div class="container manage-devop">
+        <div class=" d-flex flex-wrap justify-content-between">
+          <div class="consulting dev0-2 devo-heading col-lg-5  col-md-5 col-sm-12">
+            <h2 data-aos="fade-up" data-aos-offset="100">DevOps & Security</h2>
+
+            <div data-aos="fade-up" data-aos-offset="150" class="d-flex manage-service  gap-3 ">
+              <img src="./assets/img/vectors/arrow.png" alt="" class="arrow mt-1">
+              <div class="Devops">
+                <h6>Streamlined Operations</h6>
+                <p>Integrate development and operations for improved workflow efficiency.</p>
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-offset="200" class="d-flex manage-service  gap-3 ">
+              <img src="./assets/img/vectors/arrow.png" alt="" class="arrow mt-1">
+              <div class="Devops">
+                <h6>Enhanced Collaboration</h6>
+                <p>Facilitate better teamwork between development and IT teams.</p>
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-offset="200" class="d-flex manage-service  gap-3 ">
+              <img src="./assets/img/vectors/arrow.png" alt="" class="arrow mt-1">
+              <div class="Devops">
+                <h6>Robust Security</h6>
+                <p>Implement measures to protect your digital infrastructure from threats.</p>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-md-1">
+            <img src="./assets/img/vectors/Rectangle 4527.png" alt="" class="img-fluid mx-3 dev-img">
+          </div>
+          <div class="consulting devo-2 col-lg-5 col-md-5 col-sm-12 ">
+            <h2 data-aos="fade-up" data-aos-offset="100">Managed Services</h2>
+
+            <div data-aos="fade-up" data-aos-offset="150" class="d-flex manage-service gap-3 ">
+              <img src="./assets/img/vectors/arrow.png" alt="" class="arrow mt-1">
+              <div class="Devops">
+                <h6>IT Operations</h6>
+                <p>Provide ongoing management of your IT infrastructure.</p>
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-offset="200" class="d-flex manage-service gap-3 ">
+              <img src="./assets/img/vectors/arrow.png" alt="" class="arrow mt-1">
+              <div class="Devops">
+                <h6>Network Management</h6>
+                <p>Oversee and optimize network performance.</p>
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-offset="250" class="d-flex manage-service gap-3 ">
+              <img src="./assets/img/vectors/arrow.png" alt="" class="arrow mt-1">
+              <div class="Devops">
+                <h6>Technical Suppor</h6>
+                <p>Offer comprehensive support to resolve technical issues and ensure smooth operations</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact------------ -->
+    <section id="contact-us" class="contact">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-12 col-lg-5 col-md-12 col-sm-12" data-aos="fade-up" data-aos-offset="100">
+            <h6>Contact Us</h6>
+            <h1>Get In Touch With Us</h1>
+            <p>We're always ready to engage and collaborate! We're delighted to
+              engage with you, whether you have a question, an idea, or are
+              ready to begin on a new journey. </p>
+
+            <div class="d-flex align-items-center gap-4 mt-5">
+              <img src="./assets/img/icons/HOUSE.png" alt="icon" class="img-fluid">
+              <div class="contact-text">
+                <h1>Our Location</h1>
+                <p>Office # 006 Mezzanine Floor, Grace Tower,
+                  Block 17, Gulistan-e-Johar, Karachi.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-4 mt-5">
+              <img src="./assets/img/icons/call.png" alt="icon" class="img-fluid">
+              <div class="contact-text">
+                <h1>Phone Number</h1>
+                <p>(+92) 33 37223262</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-4 mt-5">
+              <img src="./assets/img/icons/mail.png" alt="icon" class="img-fluid">
+              <div class="contact-text">
+                <h1>Email Address</h1>
+                <p>info@methologik.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-md-12 col-sm-12 position-relative" data-aos="fade-up" data-aos-offset="100">
+
+            <img src="./assets/img/vectors/icon-f 2.png" alt="icon-f" class="img-fluid overlay-image">
+            <div class="image-container">
+              <img src="./assets/img/vectors/Dotted Shape.png" alt="dots" class="img-fluid background-image">
+            </div>
+
+            <form id="contactForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <input type="tel" class="form-control" id="phone" placeholder="Your Phone" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="form-btn">Send Message</button>
+            </form>
+
+            <div>
+              <img src="./assets/img/vectors/Dotted Shape.png" alt="dots" class="img-fluid bottom-dot">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- footer------------- -->
+    <footer>
+      <div class="container py-3">
+        <div class="footer-flex d-flex flex-wrap align-items-center justify-content-between">
+          <div class="footer-logo">
+            <a href="./index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+          </div>
+          <div class="footer-icon">
+            <div class="d-flex align-items-center justify-content-between gap-3">
+              <a target="_blank" href="https://www.linkedin.com/company/methologik-pvt-ltd/posts/?feedView=all">
+                <img src="./assets/img/icons/link.png" alt=""></a>
+
+              <a target="_blank" href="https://www.facebook.com/methologikpvtltd?mibextid=ZbWKwL">
+                <img src="./assets/img/icons/FacebookLogo.png" alt=""></a>
+
+              <a target="_blank" href="https://www.instagram.com/methologikpvtltd?igsh=YWJrcDM4Z2RzemJs">
+                <img src="./assets/img/icons/InstagramLogo.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- goto Top Cta -->
+    <div class="container">
+      <button id="scrollToTop">&#8593; </button>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- js, Bootstrap CDN Link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <!-- gsap--------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- scroll triger------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- form submission-------- -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "s1VHHnFMgT3apugWc",
+      });
+    })();
+  </script>
+
+  <!-- Include Toastify CSS and JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- main js------------ -->
+  <script src="./assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>

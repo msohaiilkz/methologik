@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/favicon/FaF-Icon.png" type="image/x-icon">
+    <title>Methologik</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <!-- font------------ -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font-2----------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&display=swap"
+        rel="stylesheet">
+    <!-- font-3-------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <!-- font-4-------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <!-- font-5-------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <!-- FONT-6--------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <!-- font-7 Railway -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <!-- font-8 Monteserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/Css/responsive.css">
+    <link rel="stylesheet" href="./assets/Css/style.css">
+
+</head>
+<body data-spy="scroll">
+
+
+
+    <!-- cursor ------->
+    <div id="cursor"></div>
+    <!-- <div id="cursor-blur"></div> -->
+
+    <!-- Navbar------->
+    <nav id="nav" class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" id="navbarToggle">
+                <i class="fas fa-bars" id="navbarToggleIcon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto">
+                    <ul class="navbar-nav  mb-2">
+                        <!-- strategy---------- -->
+                        <li class="nav-item dropdown  dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Strategic Expertise
+                            </a>
+                            <div class="dropdown-menu custom-dropdown">
+                                <div class="mega-content px-md-4">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 py-4  border-end nav-pad">
+                                                <h1 class="nav-sub-heading">Strategic Expertise</h1>
+                                                <div class="list-group ">
+                                                    <p class="nav-sub-p">Shaping impactful strategies for sustained
+                                                        growth.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col2s  col-lg-4 col-sm-6 py-4 border-end nav-pad">
+                                                <h5 class="nav-sec-sub">Strategic Expertise</h5>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./strategy.html">Strategic
+                                                        Insights & Advisory Services</a>
+                                                    <p>Delivering actionable guidance for transformative results.</p>
+                                                </div>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./dataAnalytics.html">Data &
+                                                        Analytics</a>
+                                                    <p>Decoding data to uncover powerful opportunities.</p>
+                                                </div>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./digital.html">Digital
+                                                        Implementation & Delivery </a>
+                                                    <p>Seamlessly executing strategies for measurable impact.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col3s col-lg-4 col-sm-6 py-4  nav-pad">
+                                                <h6 class="nav-sec-sub"></h6>
+                                                <div class="list-group">
+                                                    <a class="list-group-item mt-3" href="#">Strategic Insights & Advisory Services</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Optimization Consulting</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Product Strategy</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Technology Strategy</a>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- offering------------ -->
+                        <li class="nav-item dropdown  dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Offerings
+                            </a>
+                            <div class="dropdown-menu custom-dropdown">
+                                <div class="mega-content px-md-4">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 py-4  border-end nav-pad">
+                                                <h1 class="nav-sub-heading"> Our Offerings</h1>
+                                                <div class="list-group ">
+                                                    <p class="nav-sub-p">Empowering businesses with cutting edge
+                                                        solutions tailored to their needs.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="offering-col1 col-lg-4 col-sm-6 py-4 border-end nav-pad">
+                                                <h5 class="nav-sec-sub">Our Offering</h5>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./OurOffering/software-development.html">Software Development</a>
+                                                    <p>Custom, scalable software.</p>
+                                                </div>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./OurOffering/design-side.html">Design Side</a>
+                                                    <p>Beautiful, user-friendly designs.</p>
+                                                </div>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./OurOffering/cloud.html">Cloud</a>
+                                                    <p>Secure, scalable cloud services.</p>
+                                                </div>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="./OurOffering/artificial-intelligence.html">Artificial Intelligence</a>
+                                                    <p>Smart, data-driven AI.</p>
+                                                </div>
+                                                <div class="list-group mt-3">
+                                                    <a class="list-group-item" href="../OurOffering/digital-marketing.html">Digital Marketing</a>
+                                                    <p>Effective digital growth strategies.</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="offering-col2 col-lg-4 col-sm-6 py-4  nav-pad">
+                                                <h6 class="nav-sec-sub"></h6>
+                                                <div class="list-group" >
+                                                    <a class="list-group-item mt-3" href="#">Software Development</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Software Discovery & Ideation</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Enterprises Implementation Services</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Web App Development</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Mobile App Development</a>
+                                                    <a class="list-group-item mt-3 nav-last-col" href="#">Custom Solutions</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- our-brands---------------- -->
+                        <li class="nav-item dropdown  dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Brand
+                            </a>
+                            <div class="dropdown-menu custom-dropdown">
+                                <div class="mega-content px-md-4">
+                                    <div class="container">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-lg-3 col-sm-6 py-4  border-end nav-pad">
+                                                <h1 class="nav-sub-heading"> Our Brand</h1>
+                                                <div class="list-group ">
+                                                    <p class="nav-sub-p">Innovative ventures driving impactful
+                                                        solutions.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-sm-6 py-2  nav-pad">
+                                                <h5 class="nav-sec-sub">Our Brand</h5>
+                                                <div class="list-group mt-5">
+                                                    <a class="list-group-item" href="./Brands/imdady.html">Imdady</a>
+                                                    <p>Revolutionizing e-commerce with seamless delivery.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                                                <h5 class="nav-sec-sub"></h5>
+                                                <div class="list-group mt-5">
+                                                    <a class="list-group-item" href="./Brands/pickia.html">Pickia</a>
+                                                    <p>Empowering communities through digital aid solutions.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                                                <h5 class="nav-sec-sub"></h5>
+                                                <div class="list-group mt-5">
+                                                    <a class="list-group-item" href="./Brands/analytical.html">Analytics
+                                                        Nest</a>
+                                                    <p>Transforming data into actionable insights.</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- "What Defines Us" Dropdown -->
+                        <li class="nav-item dropdown  dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                What Defines
+                            </a>
+                            <div class="dropdown-menu custom-dropdown">
+                                <div class="mega-content px-md-4">
+                                    <div class="container">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-lg-3 col-sm-6 py-4  border-end nav-pad">
+                                                <h1 class="nav-sub-heading"> What Defines</h1>
+                                                <div class="list-group ">
+                                                    <p class="nav-sub-p">Building a legacy of innovation, collaboration,
+                                                        and excellence.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                                                <h5 class="nav-sec-sub">About Company</h5>
+                                                <div class="list-group mt-5">
+                                                    <a class="list-group-item"
+                                                        href="./WhatDefine/company-culture.html">Company Culture</a>
+                                                    <p>Fostering a workplace where creativity thrives and ideas come to
+                                                        life.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4  nav-pad">
+                                                <h5 class="nav-sec-sub"></h5>
+                                                <div class="list-group mt-5">
+                                                    <a class="list-group-item" href="./WhatDefine/our-team.html">Our
+                                                        Team</a>
+                                                    <p>A passionate group of professionals dedicated to transforming
+                                                        visions into reality.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 nav-pad">
+                                                <h5 class="nav-sec-sub"></h5>
+                                                <div class="list-group mt-5">
+                                                    <a class="list-group-item"
+                                                        href="./WhatDefine/career.html">Careers</a>
+                                                    <p>Join us to shape the future with groundbreaking solutions and
+                                                        limitless opportunities.</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <a class="btn top-cta bg-black rounded-pill px-5 text-white" href="#contact-us" role="button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div  class="container ">
+    <div class=" policy-container">
+    <h1 class="mb-4 ">Privacy Policy</h1>
+
+    <h2>1. Introduction</h2>
+    <p>
+      At Methologik Pvt. Ltd. (“we”, “our”, “us”), your privacy is a top priority. This Privacy Policy outlines how we collect, use, store, and protect your information when you interact with our website or use our services.
+      We are committed to transparency, compliance, and safeguarding the personal information of all our users and clients.
+    </p>
+
+    <h2>2. Scope of Policy</h2>
+    <p>This policy applies to:</p>
+    <ul>
+      <li>Visitors of www.methologik.com</li>
+      <li>Clients and partners interacting with our products or services</li>
+      <li>Individuals submitting inquiries, proposals, or collaborating on projects</li>
+    </ul>
+
+    <h2>3. Information We Collect</h2>
+
+    <h5>a. Personal Information</h5>
+    <p>We may collect the following data when you fill out a form, contact us, or use our services:</p>
+    <ul>
+      <li>Full Name</li>
+      <li>Email Address</li>
+      <li>Phone Number</li>
+      <li>Company Name</li>
+      <li>Design or development brief</li>
+    </ul>
+
+    <h5>b. Technical & Usage Data</h5>
+    <ul>
+      <li>IP Address</li>
+      <li>Device Type & Browser</li>
+      <li>Pages visited, time spent, and click behavior</li>
+      <li>Cookies and similar tracking technologies (with consent where required)</li>
+    </ul>
+
+    <h5>c. Project-Related Data</h5>
+    <ul>
+      <li>Scope of work, project details, preferences, and timelines</li>
+    </ul>
+
+    <h2>4. How We Use Your Information</h2>
+    <p>We use the information to:</p>
+    <ul>
+      <li>Provide and manage services</li>
+      <li>Respond to inquiries and proposals</li>
+      <li>Communicate project updates and offers (with your consent)</li>
+      <li>Analyze website performance and user behavior</li>
+      <li>Enhance user experience and website security</li>
+    </ul>
+    <p>We do not sell, rent, or trade your data.</p>
+
+    <h2>5. Legal Basis for Processing</h2>
+    <p>Our data processing is based on:</p>
+    <ul>
+      <li>Your Consent: when you submit information or subscribe to updates</li>
+      <li>Contractual Necessity: to fulfill a service or request</li>
+      <li>Legitimate Interests: such as improving services, analytics, or security</li>
+    </ul>
+
+    <h2>6. Data Sharing</h2>
+    <p>We may share your information with:</p>
+    <ul>
+      <li>Trusted third-party providers: such as hosting platforms, analytics tools, CRM services</li>
+      <li>Legal authorities: if required under applicable laws or lawful requests</li>
+    </ul>
+    <p>All third parties are bound by confidentiality and data protection obligations.</p>
+
+    <h2>7. Cookies & Tracking Technologies</h2>
+    <p>Our website uses cookies to:</p>
+    <ul>
+      <li>Understand visitor preferences</li>
+      <li>Improve performance and speed</li>
+      <li>Collect anonymized traffic data</li>
+    </ul>
+    <p>You can control cookie settings through your browser at any time.</p>
+
+    <h2>8. Data Storage & Security</h2>
+    <p>We follow industry-standard practices to protect your information:</p>
+    <ul>
+      <li>Encrypted connections (SSL/TLS)</li>
+      <li>Secure servers and cloud infrastructure</li>
+      <li>Restricted access to authorized personnel only</li>
+      <li>Regular audits and security updates</li>
+    </ul>
+
+    <h2>9. Data Retention</h2>
+    <p>We retain personal data only as long as necessary for:</p>
+    <ul>
+      <li>Ongoing projects or services</li>
+      <li>Legal or regulatory compliance</li>
+      <li>Internal analysis (anonymized where possible)</li>
+    </ul>
+    <p>Afterward, data is securely deleted or anonymized.</p>
+
+    <h2>10. Your Rights</h2>
+    <p>As a data subject, you have the right to:</p>
+    <ul>
+      <li>Access your personal information</li>
+      <li>Request correction or deletion</li>
+      <li>Withdraw consent for marketing or communication</li>
+      <li>Restrict or object to processing in certain circumstances</li>
+    </ul>
+    <p>To exercise any of these rights, email us at <a href="mailto:info@methologik.com">info@methologik.com</a></p>
+
+    <h2>11. International Data Transfers</h2>
+    <p>If your data is transferred outside of Pakistan (e.g. to international cloud providers), we ensure that appropriate safeguards are in place, such as standard contractual clauses or data transfer agreements.</p>
+
+    <h2>12. Children’s Privacy</h2>
+    <p>Our services are not intended for individuals under the age of 18. We do not knowingly collect data from minors. If such data is identified, it will be promptly deleted.</p>
+
+    <h2>13. Policy Updates</h2>
+    <p>This Privacy Policy may be updated periodically. All changes will be reflected on this page with a revised "Last Updated" date. If changes are significant, you will be notified via our website or direct communication.</p>
+
+    <h2>14. Contact Us</h2>
+    <p>For questions, concerns, or privacy-related requests:</p>
+    <ul>
+      <li><strong>Methologik Pvt. Ltd.</strong></li>
+      <li>Email: <a href="mailto:info@methologik.com">info@methologik.com</a></li>
+      <li>Phone: +92‑333‑7223262</li>
+      <li>Website: <a href="https://methologik.com" target="_blank">https://methologik.com</a></li>
+    </ul>
+
+   
+  </div>
+</div>
+
+
+     <!-- footer------------- -->
+    <footer>
+        <div class="container py-3">
+            <div class="footer-flex d-flex flex-wrap align-items-center justify-content-between">
+                <div class="d-flex gap-4 align-items-center">
+                    <div class="footer-logo">
+                        <a href="./index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                    </div>
+                   
+                </div>
+                
+                <div class="footer-icon">
+                    <div class="d-flex align-items-center justify-content-between gap-3">
+                        <a target="_blank"
+                            href="https://www.linkedin.com/company/methologik-pvt-ltd/posts/?feedView=all">
+                            <img src="./assets/img/icons/link.png" alt=""></a>
+
+                        <a target="_blank" href="https://www.facebook.com/methologikpvtltd?mibextid=ZbWKwL">
+                            <img src="./assets/img/icons/FacebookLogo.png" alt=""></a>
+
+                        <a target="_blank" href="https://www.instagram.com/methologikpvtltd?igsh=YWJrcDM4Z2RzemJs">
+                            <img src="./assets/img/icons/InstagramLogo.png" alt=""></a>
+                    </div>
+                    
+                </div>
+
+                <div class="">
+                      <a href="./Privacy&Policy.html">
+                        <h1 class="policy">Privicy & Policy</h1>
+                      </a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- goto Top Cta -->
+    <div>
+        <button id="scrollToTop">&#8593; </button>
+    </div>
+
+
+
+
+
+    <!-- js, Bootstrap CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- gsap--------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- <script src="gsap.min.js" defer></script> -->
+
+    <!-- scroll triger------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/ScrollTrigger.min.js"></script>
+
+    <script src="https://unpkg.com/split-type"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- form submission-------- -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "s1VHHnFMgT3apugWc",
+            });
+        })();
+    </script>
+
+    <!-- Include Toastify CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- main js------------ -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
