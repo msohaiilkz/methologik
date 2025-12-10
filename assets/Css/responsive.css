@@ -14,6 +14,7 @@
 }
 
 @media (min-width: 1440px) and (max-width: 2560px) {
+<<<<<<< HEAD
   section {
     margin-top: 3rem !important;
   }
@@ -49,6 +50,25 @@
 
   }
 
+=======
+  .dot1{
+    top: 44% !important;
+     left: 52% !important;
+}
+.dot2{
+    top: 46%;
+     left: 57% !important;
+}
+.dot3{
+    top: 38%;
+     left: 60% !important;
+} 
+  .custom-dropdown {
+    position: absolute;
+    top: 55px !important;
+
+  }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   #strategic {
     background-color: #131421;
     color: white;
@@ -59,17 +79,25 @@
     scroll-behavior: smooth !important;
     padding: 5rem 3rem;
 
+<<<<<<< HEAD
   }
 
   .text-headerss {
     height: 40vh;
   }
 
+=======
+}
+.text-headerss {
+  height: 40vh ;
+}
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   body {
     overflow-x: hidden;
   }
 
   .main-headings h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif !important;
     font-size: 48px !important;
     font-weight: 900;
@@ -79,16 +107,26 @@
     font-family: "Wanted Sans Variable", sans-serif !important;
     font-size: 48px !important;
     font-weight: 900;
+=======
+    font-size: 64px !important;
+  }
+
+  .main-headings span {
+    font-size: 64px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .consulting {
     padding: 0 4rem;
   }
 
+<<<<<<< HEAD
   .business {
     padding: 4rem 0 !important;
   }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .business h1 {
     font-size: 32px !important;
   }
@@ -111,11 +149,22 @@
   }
 
   .bye h1 {
+<<<<<<< HEAD
     right: 9rem !important;
   }
 
   .hello h1 {
     left: 70px !important;
+=======
+    right: 10rem !important;
+  }
+
+  .hello h1 {
+
+    left: 70px !important;
+
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .hello p {
@@ -124,7 +173,11 @@
     position: absolute;
     top: 120px;
     left: 250px !important;
+<<<<<<< HEAD
     line-height: 20px;
+=======
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .digital {
@@ -169,7 +222,11 @@
   }
 
   #key-phrase {
+<<<<<<< HEAD
     height: 72vh !important;
+=======
+    height: 45vh !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     overflow-y: scroll;
     padding: 5rem 0;
   }
@@ -188,6 +245,7 @@
 
   .upper-heading,
   .company-col-1 h1 {
+<<<<<<< HEAD
     font-size: 48px !important;
   }
 
@@ -213,6 +271,9 @@
     position: absolute;
     top: 47px;
     left: 308px !important;
+=======
+    font-size: 64px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
 }
@@ -221,6 +282,7 @@
 
 /*Tablet mood---------- */
 @media (min-width: 768px) and (max-width: 1200px) {
+<<<<<<< HEAD
   .design-bottom-2 {
     display: none !important;
   }
@@ -237,6 +299,13 @@
     position: absolute;
     top: 70px !important;
 
+=======
+
+
+
+  section {
+    margin-top: 3rem !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .analysis-last {
@@ -495,7 +564,17 @@
     margin-top: 3rem !important;
   }
 
+<<<<<<< HEAD
   
+=======
+  .hello h1 {
+    position: absolute;
+    top: 0;
+    left: -60px !important;
+    margin: 18px 6rem !important;
+    font-size: 25px !important;
+  }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
   .hello p {
     width: 38% !important;
@@ -514,7 +593,15 @@
     right: 17rem !important;
   }
 
+<<<<<<< HEAD
   
+=======
+  .bye h1 {
+    font-size: 25px !important;
+    right: 6rem !important;
+    top: 116px !important;
+  }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
   .bye p {
     width: 35% !important;
@@ -603,7 +690,10 @@
     display: none;
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 
@@ -613,6 +703,7 @@
     overflow-x: hidden;
   }
 
+<<<<<<< HEAD
   #project {
     padding: 0 !important;
   }
@@ -629,6 +720,8 @@
     margin-top: 10px;
   }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .analysis-last {
     margin-top: 5rem !important;
   }
@@ -641,28 +734,38 @@
     display: none;
   }
 
+<<<<<<< HEAD
   .main-headings h1 {
     font-size: 30px !important;
 
   }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   header h1 {
     font-size: 30px !important;
     margin-top: 2rem !important;
   }
 
   header span {
+<<<<<<< HEAD
     font-size: 30px !important;
+=======
+    font-size: 50px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   header p {
     font-size: 14px !important;
   }
 
+<<<<<<< HEAD
   .service-col-22 p {
     text-align: center !important;
   }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .trusted h3 {
     border: none !important;
     text-align: center;
@@ -723,6 +826,7 @@
     margin-top: 2rem !important;
   }
 
+<<<<<<< HEAD
   .contact-main-heading {
     font-size: 40px !important;
   }
@@ -744,6 +848,20 @@
   }
 
 
+=======
+  footer {
+    text-align: center !important;
+
+  }
+
+  .footer-icon img {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+  }
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .devo-heading h2 {
     margin-top: -4rem !important;
   }
@@ -757,6 +875,7 @@
   #pickiaa {
     margin-top: 2rem !important;
   }
+<<<<<<< HEAD
 
   .design-bottom-2 {
     display: none !important;
@@ -842,6 +961,12 @@
     display: none !important;
 
   }
+=======
+}
+
+/* All small mobile */
+@media (max-width: 767px) {
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
   .nav-sec-sub {
     margin-top: 0rem !important;
@@ -850,13 +975,19 @@
 
   .nav-sub-heading {
     text-align: start !important;
+<<<<<<< HEAD
 
   }
 
+=======
+ 
+}
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .nav-pad p {
     text-align: start !important;
 
   }
+<<<<<<< HEAD
 
   .nav-pad {
     padding: 0 2rem !important;
@@ -864,6 +995,11 @@
   .nav-padd{
     
     display: none !important;
+=======
+.nav-pad {
+    padding: 0 2rem !important;
+    
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
   #our-impact {
 
@@ -874,8 +1010,14 @@
     padding: 0 1rem !important;
   }
 
+<<<<<<< HEAD
   h1{
     text-align: center !important;
+=======
+  h1,
+  p {
+    text-align: center;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .ana-text h3 {
@@ -891,6 +1033,7 @@
     display: block !important;
   }
 
+<<<<<<< HEAD
   .digi-form {
     text-align: start !important;
   }
@@ -902,6 +1045,17 @@
   }
 
   .digi-form p {
+=======
+  .digi-form{
+    text-align: start !important;
+  }
+  .digi-form h1,
+  .digi-form h2{
+    font-size: 20px !important;
+    
+  }
+  .digi-form p{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 16px !important;
     padding: 1rem 0 !important;
     text-align: start !important;
@@ -920,7 +1074,11 @@
   .banner p {
 
     font-size: 20px !important;
+<<<<<<< HEAD
     line-height: 20px !important;
+=======
+    line-height: 26px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   #banner {
@@ -965,7 +1123,11 @@
 
   .strati-point p {
     font-size: 14px !important;
+<<<<<<< HEAD
     text-align: start !important;
+=======
+    text-align: start;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   #banner img,
@@ -1020,7 +1182,20 @@
     display: none !important;
   }
 
+<<<<<<< HEAD
 
+=======
+  .footer-flex {
+    flex-direction: column;
+    /* align-items: center;  */
+    justify-content: center;
+    text-align: center !important;
+  }
+
+  .footer-icon {
+    margin-top: 20px;
+  }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
   header video {
     margin-top: 4rem;
@@ -1028,12 +1203,20 @@
   }
 
   header h1 {
+<<<<<<< HEAD
     font-size: 36px !important;
+=======
+    font-size: 30px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-top: 2rem !important;
   }
 
   header span {
+<<<<<<< HEAD
     font-size: 36px !important;
+=======
+    font-size: 40px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   header p {
@@ -1071,6 +1254,12 @@
     font-size: 20px !important;
   }
 
+<<<<<<< HEAD
+=======
+  .strati-point p {
+    text-align: start;
+  }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
   .business .row {
     display: flex;
@@ -1087,17 +1276,29 @@
   }
 
   .business h1 {
+<<<<<<< HEAD
     text-align: start !important;
     margin-bottom: 1rem !important;
     font-size: 26px !important;
+=======
+    text-align: center;
+    margin-bottom: 1rem !important;
+    font-size: 22px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 0 !important;
 
   }
 
+<<<<<<< HEAD
   .inovation h1 {
     font-size: 26px !important;
     text-align: start !important;
     padding: 0 !important;
+=======
+  .inovation h1,
+  p {
+    text-align: center;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .inovation-img {
@@ -1223,7 +1424,11 @@
 
   .consulting-product p {
     margin-top: 15px !important;
+<<<<<<< HEAD
     line-height: 20px !important;
+=======
+    line-height: 26px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .data p {
@@ -1233,6 +1438,7 @@
 
 
   .hello h1 {
+<<<<<<< HEAD
     width: 80%;
     text-align: center;
     font-size: 25px !important;
@@ -1241,6 +1447,16 @@
   }
 
   
+=======
+    width: 60%;
+    text-align: center;
+    font-size: 25px !important;
+    left: -25px !important;
+    top: -54px !important;
+  }
+
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .hello p {
     font-size: 16px !important;
     width: 100% !important;
@@ -1251,12 +1467,19 @@
     display: block !important;
 
   }
+<<<<<<< HEAD
   
 
   .bye h1 {
     width: 80% !important;
    
     right: 57px !important;
+=======
+
+
+  .bye h1 {
+    right: 6.9rem !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     top: 590px !important;
     font-size: 25px !important;
   }
@@ -1298,7 +1521,11 @@
 
   .digi-consulting p {
     margin-top: 15px;
+<<<<<<< HEAD
     line-height: 20px !important;
+=======
+    line-height: 26px !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .product-eng {
@@ -1456,7 +1683,11 @@
   }
 
   .main-software-header {
+<<<<<<< HEAD
     margin-bottom: 30rem !important;
+=======
+    margin-bottom: 45rem !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   }
 
   .RED1,
@@ -1491,11 +1722,14 @@
 
   }
 
+<<<<<<< HEAD
   .design-text p {
     
     line-height: 20px ;
 }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .logoss {
     position: absolute;
     top: 470px !important;
@@ -1545,10 +1779,13 @@
     padding: 7rem 8px !important;
   }
 
+<<<<<<< HEAD
   .key-phrase {
     margin: 1rem 0 !important;
   }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .key-phrase.active {
     width: 100% !important;
   }
@@ -1633,6 +1870,7 @@
   .career-sub-heading h1 {
     font-size: 30px !important;
   }
+<<<<<<< HEAD
 
   #text-animate {
     height: 60vh !important;
@@ -1656,11 +1894,24 @@
     left: 50% !important;
   }
 
+=======
+  #text-animate {
+    height: 80vh !important;
+    padding:0 0 !important;
+  }
+  .data-contact{
+    margin-top: 12rem !important;
+  }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 @media (min-width:360px) and (max-width:429px) {
   .bye h1 {
+<<<<<<< HEAD
     right: 43px !important;
+=======
+    right: 4.9rem !important;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     top: 560px !important;
     font-size: 25px !important;
   }
@@ -1686,15 +1937,23 @@
   }
 
   #text-animate {
+<<<<<<< HEAD
     height: 60vh !important;
     padding: 0 0 !important;
   }
 
+=======
+    height: 80vh !important;
+    padding:0 0 !important;
+  }
+  
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
   .text-animate h1 {
     padding: 0 !important;
     font-size: 30px !important;
   }
 
+<<<<<<< HEAD
   .right-side p {
     text-align: start;
   }
@@ -1702,4 +1961,6 @@
   .contact-h1 h1 {
     font-size: 40px !important;
   }
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }

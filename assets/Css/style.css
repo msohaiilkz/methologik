@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 * {
+=======
+*{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,7 +10,11 @@
 
 body {
 
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", "Wanted Sans Variable", sans-serif;
+=======
+    font-family:"Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -14,14 +22,21 @@ body {
 }
 
 
+<<<<<<< HEAD
 section {
     margin-top: 4rem !important;
+=======
+
+section {
+    margin-top: 3rem;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 br {
     display: block;
 }
 
+<<<<<<< HEAD
 .main-headings h1 {
     font-family: "Wanted Sans Variable", sans-serif !important;
     font-size: 48px !important;
@@ -76,6 +91,8 @@ select {
     color: #4A5565;
 }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 #strategic {
     margin-top: 0rem !important;
 }
@@ -125,6 +142,7 @@ select {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 .nav-link {
     font-family: "Wanted Sans Variable ", sans-serif;
     font-weight: 400;
@@ -134,6 +152,10 @@ select {
 
 .nav-link:hover {
     color: #B61417 !important;
+=======
+.nav-link{
+    color: #1E1E1E !important; 
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .top-cta:hover {
@@ -145,7 +167,10 @@ select {
 
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
+<<<<<<< HEAD
     top: 70px !important;
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .nav-item.dropdown .dropdown-menu {
@@ -154,6 +179,13 @@ select {
     transition: all 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+/* .nav-item.dropdown:hover > .nav-link {
+    background-color: #f8f9fa; 
+  }
+   */
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
 .nav-sub-heading {
     font-size: 20px;
@@ -190,7 +222,11 @@ select {
 
 .nav-pad {
     padding: 1.5 2rem;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 
@@ -206,7 +242,11 @@ select {
 
 .custom-dropdown {
     position: absolute;
+<<<<<<< HEAD
     top: 55px;
+=======
+    top: 65px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     left: 0;
     padding: 3rem 0;
 }
@@ -216,20 +256,34 @@ select {
 
 }
 
+<<<<<<< HEAD
 
 
 .custom-dropdown {
     overflow-y: auto;
 
+=======
+/* changes by muslim start */
+
+.custom-dropdown {
+    overflow-y: auto;  /* Add vertical scroll if the content exceeds 100px */
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 @media (max-width: 768px) {
     .custom-dropdown {
+<<<<<<< HEAD
         max-height: 400px;
 
     }
 }
 
+=======
+        max-height: 400px; /* Slightly increase max height for smaller screens if needed */
+    }
+}
+/* changes by muslim end */
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
 
 
@@ -237,41 +291,75 @@ select {
 
 /* header------------- */
 header {
+<<<<<<< HEAD
     /* background: url(/assets/img/Banner/logo-creating-#B61417\ 1.png) no-repeat;
     background-position: center;
     background-size: cover; */
     padding: 10rem 0 3rem 0px;
+=======
+    background: url(/assets/img/Banner/logo-creating-#B61417\ 1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 0;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     z-index: 10;
 }
 
 header h1 {
+<<<<<<< HEAD
     font-size: 48px;
     margin-top: 5rem;
     font-weight: 900;
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-size: 55px;
+    margin-top: 5rem;
+    font-family: "Radley", serif;
+    font-weight: 500;
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 header span {
     color: #B61417;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Radley", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 55px;
 }
 
 header p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 24px;
     font-weight: 400;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-weight: 400;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 /* trusted------------ */
 
 
 .trusted h3 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
     font-size: 20px;
     padding: 2rem 0;
     line-height: 20px;
+=======
+    font-family: "Manuale", serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 2rem 0;
+    line-height: 28px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     color: black;
 
 }
@@ -284,10 +372,20 @@ header p {
     background: white;
     white-space: nowrap;
     position: relative;
+<<<<<<< HEAD
 }
 
 .logos::before,
 .logos::after {
+=======
+    cursor: pointer;
+}
+
+
+
+.logos:before,
+.logos:after {
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     content: "";
     position: absolute;
     top: 0;
@@ -296,16 +394,25 @@ header p {
     z-index: 2;
 }
 
+<<<<<<< HEAD
 .logos::before {
+=======
+.logos:before {
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     left: 0;
     background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
 }
 
+<<<<<<< HEAD
 .logos::after {
+=======
+.logos:after {
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
+<<<<<<< HEAD
 
 .logos-slide {
     display: inline-flex;
@@ -328,12 +435,33 @@ header p {
 }
 
 /* continuous scroll */
+=======
+ 
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+
+    margin: 0 35px;
+}
+
+.logos-slide img:hover {
+
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 @keyframes slide {
     from {
         transform: translateX(0);
     }
 
     to {
+<<<<<<< HEAD
         transform: translateX(-50%);
 
     }
@@ -655,6 +783,11 @@ header p {
 }
 
 
+=======
+        transform: translateX( calc(-250px * 11));
+    }
+}
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 /* startegic */
 
 #strategic::-webkit-scrollbar,
@@ -663,7 +796,11 @@ header p {
     display: none;
 }
 
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 #strategic {
     background-color: #131421;
     color: white;
@@ -690,7 +827,11 @@ header p {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 6rem 0;
 }
 
@@ -701,10 +842,14 @@ header p {
 }
 
 .strategic h6 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 300;
     padding-right: 10rem;
     line-height: 20px !important;
+=======
+    padding-right: 10rem;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .strati {
@@ -723,7 +868,10 @@ header p {
 }
 
 .strati-point h2 {
+<<<<<<< HEAD
     /* font-family: "Wanted Sans Variable", sans-serif; */
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 20px;
 }
 
@@ -731,11 +879,14 @@ header p {
     margin-top: 1rem;
 }
 
+<<<<<<< HEAD
 .pointss p {
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 400;
 }
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 .video-container {
     width: 100%;
 }
@@ -748,6 +899,7 @@ header p {
 
 /* busines----------- */
 .business {
+<<<<<<< HEAD
     padding: 8rem 0 !important;
 }
 
@@ -755,13 +907,30 @@ header p {
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 30px;
     font-weight: 900 !important;
+=======
+    padding: 8rem 0;
+}
+
+.business h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 0 4rem;
 }
 
 .business p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 16px;
     line-height: 20px;
+=======
+    font-family: "Raleway", sans-serif;
+    ;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 0 4rem;
 }
 
@@ -774,6 +943,7 @@ header p {
 }
 
 .inovation h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 30px;
     font-weight: 900;
@@ -781,6 +951,10 @@ header p {
 
 .inovation p {
     line-height: 20px;
+=======
+    font-size: 32px;
+    font-weight: 700;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .inovation img:hover {
@@ -795,20 +969,32 @@ header p {
 }
 
 .portfolio-text h3 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 18px;
     color: #B61417;
 }
 
 .portfolio-text h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 40px;
     color: #181A2B;
     font-weight: 800;
 }
 
 .portfolio-text p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     ;
     font-size: 16px;
     color: #637381;
@@ -834,7 +1020,11 @@ header p {
 }
 
 .card-data {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     width: 280px;
     background-color: #fff;
     padding: 1.5rem 1rem;
@@ -940,16 +1130,28 @@ header p {
 }
 
 .map h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     position: absolute;
     margin-top: 18rem;
     font-size: 40px;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    margin-top: 18rem;
+    font-size: 40px;
+    font-weight: 800;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     color: #111928;
 }
 
 .map h2 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     position: absolute;
     margin-top: 23rem;
     font-size: 40px;
@@ -962,6 +1164,7 @@ header p {
     padding: 5rem 0;
 }
 
+<<<<<<< HEAD
 #reviewed h2 {
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
@@ -972,6 +1175,12 @@ header p {
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 24px;
     font-weight: 600;
+=======
+.revied h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     color: #000;
 }
 
@@ -985,7 +1194,11 @@ header p {
 }
 
 .review-col h4 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 16px;
     color: #333333;
     font-weight: 800;
@@ -1001,12 +1214,17 @@ header p {
 .heading h1 {
     color: white;
     font-size: 52px;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-weight: 700;
     line-height: 56px;
     padding: 0 5rem;
 }
 
+<<<<<<< HEAD
 .sub-headings h1 {
     font-weight: 900;
     font-size: 48px;
@@ -1172,6 +1390,118 @@ footer i {
     font-weight: 400;
 }
 
+=======
+/* contact-------------------- */
+
+
+.contact {
+    font-family: "Raleway", sans-serif;
+    margin: 5rem 0;
+    padding: 5rem 0;
+
+}
+
+.contact h6 {
+    font-size: 18px;
+    color: #B61417;
+    font-weight: 600;
+}
+
+.contact h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #111928;
+}
+
+.contact p {
+    color: #637381;
+    font-weight: 400;
+}
+
+.contact-text h1 {
+    font-size: 18px;
+    color: #111928;
+    font-weight: 600;
+}
+
+.contact-text p {
+    color: #637381;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+form {
+    background-color: white;
+    padding: 4rem;
+    box-shadow: 0 5px 20px hsla(0, 1%, 21%, 0.25);
+    border-radius: 8px;
+}
+
+.form-control {
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #DFE4EA;
+    transition: border 0.3s;
+    outline: none;
+}
+
+.form-control:focus {
+    border: #E22B38 1px solid;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #9CA3AF;
+}
+
+.form-btn {
+    width: 100%;
+    background-color: #B61417;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    top: 4rem;
+    right: -26px;
+    z-index: -1;
+}
+
+.overlay-image {
+    position: absolute;
+    top: -3.3rem;
+    right: -25px;
+    z-index: -1;
+}
+
+.bottom-dot {
+    position: absolute;
+    bottom: -1.2rem;
+    left: -12px;
+    z-index: -1;
+}
+
+.footer-icon img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.footer-icon img:hover {
+    transform: translateY(-.5rem);
+    border: none;
+}
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 #scrollToTop {
 
     position: fixed;
@@ -1197,17 +1527,27 @@ footer i {
 /* benner----------- */
 
 #banner {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Radelay";
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     height: fit-content;
     padding: 12rem 0;
     align-items: center;
 }
 
 .banner h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 48px;
     line-height: 64px;
     font-weight: 900;
+=======
+    font-size: 55px;
+    line-height: 64px;
+    font-weight: 400;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .banner span {
@@ -1218,7 +1558,11 @@ footer i {
 .banner p {
     font-size: 32px;
     line-height: 36.42px;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-weight: 500;
 }
 
@@ -1236,7 +1580,11 @@ footer i {
 
 
 .consulting {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .consulting h1 {
@@ -1244,6 +1592,7 @@ footer i {
 }
 
 .consulting h2 {
+<<<<<<< HEAD
     font-size: 46px;
     font-weight: 900;
 }
@@ -1262,6 +1611,24 @@ footer i {
     font-size: 48px;
     font-weight: 900;
 
+=======
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.consulting p {
+    font-family: "Raleway", serif;
+    line-height: 18.24px;
+}
+
+.product{
+
+    font-family: "Raleway", sans-serif;
+}
+.product h2 {
+    font-size: 40px;
+   
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .product-strategy h1 {
@@ -1273,12 +1640,20 @@ footer i {
 }
 
 #techno {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 4rem 0 0 0;
 }
 
 .techno h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .techno p {
@@ -1287,6 +1662,7 @@ footer i {
 
 #analytics {
     background-color: #B61417;
+<<<<<<< HEAD
 
 }
 
@@ -1294,6 +1670,15 @@ footer i {
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 40px;
     font-weight: 900;
+=======
+    
+}
+
+.ana-text h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     line-height: 40px;
 
 }
@@ -1303,14 +1688,22 @@ footer i {
 }
 
 .analytics h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 40px;
     color: white;
 }
 
 .analytics-point {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     background-color: white;
     border: 1px solid;
     border-radius: 10px;
@@ -1324,7 +1717,11 @@ footer i {
 
 .analytics-point h1 {
     font-size: 24px;
+<<<<<<< HEAD
     font-weight: 900;
+=======
+    font-weight: 500;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-bottom: 1rem;
 }
 
@@ -1337,14 +1734,21 @@ footer i {
 }
 
 #data-science {
+<<<<<<< HEAD
     padding: 7rem 0;
+=======
+    padding: 10rem 0;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-top: -6rem !important;
 }
 
 #data-science h1 {
     font-size: 24px;
     margin-top: 12px;
+<<<<<<< HEAD
     font-weight: 900;
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .data p {
@@ -1364,8 +1768,12 @@ footer i {
 }
 
 .hello h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     color: #fff;
     background-color: black;
     position: absolute;
@@ -1381,7 +1789,11 @@ footer i {
     position: absolute;
     top: 120px;
     left: 220px;
+<<<<<<< HEAD
     line-height: 20px;
+=======
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 #dataImage {
@@ -1393,8 +1805,12 @@ footer i {
 .bye h1 {
     color: #fff;
     background-color: black;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     position: absolute;
     top: 100px;
     right: 6rem;
@@ -1407,7 +1823,11 @@ footer i {
     position: absolute;
     top: 220px;
     right: -31px;
+<<<<<<< HEAD
     line-height: 20px;
+=======
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .vertical-line {
@@ -1475,7 +1895,11 @@ footer i {
 }
 
 .product-eng {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .arrow {
@@ -1484,7 +1908,11 @@ footer i {
 }
 
 .Devops {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .Devops h6 {
@@ -1613,13 +2041,21 @@ footer i {
 
 .imdady-header h1,
 .pickia-header h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Radley", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 55px;
 
 }
 
 .imdady-header p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 24px;
     font-weight: 400;
 
@@ -1630,7 +2066,11 @@ footer i {
 }
 
 .imdady-intro h6 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 24px;
     color: #7B20C7;
 }
@@ -1645,9 +2085,15 @@ footer i {
 }
 
 .imdady-intro p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     padding: 0 9.2rem;
     line-height: 20px;
+=======
+    font-family: "Raleway", sans-serif;
+    padding: 0 9.2rem;
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .imdady-sec2 {
@@ -1655,15 +2101,25 @@ footer i {
 }
 
 .imdady-sec2 h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 36px;
     font-weight: 700;
 }
 
 .imdady-sec2 p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     margin-top: 1rem;
     line-height: 20px;
+=======
+    font-family: "Raleway", sans-serif;
+    margin-top: 1rem;
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 #imdady-feature {
@@ -1672,7 +2128,11 @@ footer i {
 
 .imdady-feature h1 {
     font-size: 36px;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-weight: 600;
 }
 
@@ -1697,15 +2157,24 @@ footer i {
 }
 
 .imdady-RMS h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 36px;
     color: #7B20C7;
 }
 
 .imdady-RMS p {
     margin-top: 1rem;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     line-height: 20px;
+=======
+    font-family: "Raleway", sans-serif;
+    line-height: 16px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .rms-image-container {
@@ -1769,7 +2238,10 @@ footer i {
     position: absolute;
     left: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 .pickia-btn {
     background-color: white;
     border: 1px solid #37B76B;
@@ -1800,7 +2272,11 @@ footer i {
 }
 
 .analytic-sec4 h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-weight: 700 !important;
     font-size: 36px;
 }
@@ -1810,10 +2286,16 @@ footer i {
 }
 
 .analysis-service {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
 }
 
 .analysis-service img {
+=======
+    font-family: "Raleway", sans-serif;
+}
+.analysis-service img{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-top: 4rem;
     width: 30%;
 }
@@ -1848,7 +2330,11 @@ footer i {
 /* softwre-develpoment---------------- */
 
 
+<<<<<<< HEAD
 .software-header p {
+=======
+.software-header p{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 16px !important;
     font-weight: 500 !important;
 }
@@ -1956,28 +2442,49 @@ footer i {
 
 /* ai----------------- */
 .ai-service h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 32px;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-bottom: 2rem;
 
 }
 
 .ai-develop h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 48px;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     line-height: 57px;
 }
 
 .ai-develop p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     line-height: 20px;
+=======
+    font-family: "Raleway", sans-serif;
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: .5rem 4rem 0 0;
 }
 
 #key-phrase {
+<<<<<<< HEAD
     height: 80vh !important;
+=======
+    height: 50vh;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     overflow-y: scroll;
     padding: 5rem 0;
 }
@@ -2000,8 +2507,13 @@ footer i {
 
 
 .key-phrase {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     margin: 2rem 0;
+=======
+    font-family: "Raleway", sans-serif;
+    margin: 1rem 0;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
 
@@ -2019,8 +2531,13 @@ footer i {
 
 .marketing h1 {
     font-size: 40px;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 
@@ -2040,9 +2557,15 @@ footer i {
 
 
 .our-impact h1 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 48px;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     text-align: start;
 }
 
@@ -2063,7 +2586,11 @@ footer i {
     background-position: center;
     border-radius: 10px;
     position: relative;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+    overflow: hidden; 
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 
@@ -2078,6 +2605,7 @@ footer i {
     width: 100%;
     height: 99%;
     background: rgba(167, 27, 27, 0.5);
+<<<<<<< HEAD
     backdrop-filter: blur(10px);
     opacity: 0;
     transform: translateY(30px);
@@ -2104,6 +2632,34 @@ footer i {
     transform: translateY(0);
 }
 
+=======
+    backdrop-filter: blur(10px); 
+    opacity: 0;
+    transform: translateY(30px); 
+    transition: opacity 0.5s ease, transform 0.5s ease-out; 
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+ 
+  
+  .card-overlay h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .card-overlay p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .card1:hover .card-overlay {
+    opacity: 1;
+    transform: translateY(0); 
+}
+  
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
 /* .card1 .btn {
     padding: 0.6rem 3rem;
@@ -2129,7 +2685,11 @@ footer i {
 }
 
 .line-text p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-weight: 600;
     font-size: 20px;
 }
@@ -2148,6 +2708,7 @@ footer i {
     position: absolute;
     top: 80px;
     left: 0;
+<<<<<<< HEAD
     right: 40;
     bottom: 0;
     width: 50%;
@@ -2172,12 +2733,23 @@ footer i {
     height: 80%;
     background: rgba(255, 0, 0, 0.514);
     filter: blur(106px);
+=======
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: rgba(255, 0, 0, 0.5);
+    filter: blur(210px);
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     z-index: -1;
 }
 
 .cloud-text {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Radley", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 20px;
 }
 
@@ -2188,13 +2760,22 @@ footer i {
 .cloud-text-2 h1,
 .cloud-text-3 h1 {
     font-size: 48px;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .cloud-text-2 p,
 .cloud-text-3 p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-top: 1rem;
     font-size: 16px;
     font-weight: 300;
@@ -2220,6 +2801,7 @@ footer i {
 }
 
 .cloud-text {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
 }
 
@@ -2227,23 +2809,42 @@ footer i {
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 48px;
     font-weight: 900;
+=======
+    font-family: "Raleway", sans-serif;
+}
+
+.cloud-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     line-height: 57px;
 }
 
 .cloud-text p {
     font-size: 16px;
     font-weight: 400;
+<<<<<<< HEAD
     line-height: 20px;
+=======
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 #text-animate {
     background-color: #B61417;
+<<<<<<< HEAD
     height: 80vh;
+=======
+    height: 100vh;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 0 13rem;
     display: grid;
     place-content: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 #text-animates {
     background-color: #B61417;
     height: 60vh;
@@ -2253,21 +2854,30 @@ footer i {
 }
 
 .text-animate h1 {
+<<<<<<< HEAD
     text-align: center !important;
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 40px;
     line-height: 50px;
     color: white;
     font-weight: 600;
 }
+<<<<<<< HEAD
 
 .text-animates h1 {
     text-align: center !important;
+=======
+.text-animates h1 {
+    text-align: center !important ;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 40px;
     line-height: 50px;
     color: white;
     font-weight: 600;
 }
 
+<<<<<<< HEAD
 .text-headerss {
     text-align: center !important;
     height: 60vh !important;
@@ -2279,6 +2889,13 @@ footer i {
 }
 
 .text-headerss h1 {
+=======
+.text-headerss{
+    text-align: center !important;
+    height: 70vh !important;
+}
+.text-headerss h1{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     text-align: center !important;
 }
 
@@ -2287,7 +2904,10 @@ footer i {
 }
 
 .text-parent {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 3rem 1rem;
     width: 23rem;
     height: 25rem;
@@ -2297,6 +2917,7 @@ footer i {
 
 }
 
+<<<<<<< HEAD
 .text-parent h1 {
     font-weight: 900;
     font-family: "Wanted Sans Variable", sans-serif;
@@ -2343,15 +2964,23 @@ footer i {
 
 
 
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 /* design col---------------- */
 .design-text h1 {
     font-size: 64px;
 }
 
 .design-text p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 36px;
     line-height: 40px;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .design-text-2 {
@@ -2361,7 +2990,10 @@ footer i {
 .design-text-2 a {
     font-size: 20px;
     color: #B61417;
+<<<<<<< HEAD
     font-weight: 600;
+=======
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     text-decoration: none;
 }
 
@@ -2370,19 +3002,31 @@ footer i {
     color: white;
     /* height: 50vh; */
     padding: 5rem 10rem;
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
 }
 
 .design-col-2 h1 {
     font-size: 40px;
+<<<<<<< HEAD
     font-weight: 900;
+=======
+    font-weight: 600;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     line-height: 45px;
 
 }
 
 .design-col-2 p {
+<<<<<<< HEAD
     line-height: 20px;
+=======
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-weight: 400;
 
 }
@@ -2414,11 +3058,16 @@ footer i {
 }
 
 .design-col-4 {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 .design-col-4 h1 {
     font-size: 48px;
+<<<<<<< HEAD
     font-weight: 900;
 }
 
@@ -2558,6 +3207,15 @@ footer i {
 
 
 
+=======
+    font-weight: 600;
+}
+
+.design-col-4 p {
+    line-height: 20.56px;
+}
+
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 .service-col {
     background-color: #F7FAFC;
     border: 1px solid #D9D9D9;
@@ -2565,6 +3223,7 @@ footer i {
     margin-top: 3rem;
     height: 20rem;
 }
+<<<<<<< HEAD
 .service-col-what {
     background-color: #F7FAFC;
     border: 1px solid #B92025;
@@ -2581,23 +3240,37 @@ footer i {
 }
 .service-col h1 {
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+
+.service-col h1 {
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 14px;
     font-weight: 400;
     margin-top: 2rem;
 }
 
 .service-col p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 14px;
     font-weight: 300;
     margin-top: 1rem;
     line-height: 20px;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 1rem;
+    line-height: 18px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 
 .design-right {
     position: absolute;
     top: 47px;
+<<<<<<< HEAD
     left: 175px;
 }
 
@@ -2628,26 +3301,49 @@ footer i {
     position: absolute;
     left: 440px;
     top: 250px;
+=======
+    left: -25px;
+}
+
+.design-bottom {
+    position: absolute;
+    left: 315px;
+    top: 150px;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 }
 
 
 /* company------- */
 .company-header {
+<<<<<<< HEAD
     padding: 4rem 0 ;
 }
 
 .company-col-1 {
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    padding: 8rem 0;
+}
+
+.company-col-1 {
+    font-family: "Radley", serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 0 4rem;
 }
 
 .company-col-1 h1 {
+<<<<<<< HEAD
     font-size: 48px;
     font-weight: 900;
+=======
+    font-size: 55px;
+    font-weight: 400;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     line-height: 55px;
 }
 
 .company-col-1 p {
+<<<<<<< HEAD
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 18px;
     line-height: 20px;
@@ -2655,22 +3351,40 @@ footer i {
 
 .upper-text {
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.upper-text {
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     color: #B61417;
     font-size: 20px;
     font-weight: 600;
 
 }
 
+<<<<<<< HEAD
 .tomorrow-col {
     margin-top: 5rem;
 }
 
 .tomorrow-col h1 {
     font-family: "Wanted Sans Variable", sans-serif;
+=======
+.tomorrow-col{
+    margin-top: 5rem;
+}
+.tomorrow-col h1 {
+    font-family: "Raleway", sans-serif;
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 40px;
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 #whowe {
     padding: 5rem 0;
     font-family: "Wanted Sans Variable", sans-serif;
@@ -2700,33 +3414,76 @@ footer i {
 }
 
 .team-detail {
+=======
+#whowe{
+    padding: 5rem 0;
+    font-family: "Raleway", sans-serif;
+}
+.whowe h1{
+    font-size: 48px;
+font-weight: 600;
+}
+.whowe p{
+    margin-top: 2rem;
+    line-height: 18px;
+}
+#whatwe{
+    margin-top: 5rem ;
+}
+
+#team-detail{
+    padding: 5rem 10rem;
+}
+.team-detail-heading h1{
+    font-size: 40px;
+    font-weight: 600;    
+}
+
+.team-detail{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-top: 5rem;
     padding: 0 2rem;
 }
 
 
 
+<<<<<<< HEAD
 .detailss h1 {
+=======
+.detailss h1{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 24px;
     font-weight: 600;
 }
 
+<<<<<<< HEAD
 .detailss p {
+=======
+.detailss p{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 20px;
     font-weight: 600;
     color: #868686;
 }
+<<<<<<< HEAD
 
 .detail-mt {
     margin-top: -1rem;
 }
 
 .detailss img {
+=======
+.detail-mt{
+    margin-top: -1rem;
+}
+.detailss img{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     margin-top: -16px;
 }
 
 
 /* career------------------ */
+<<<<<<< HEAD
 .careers {
     padding-top: 8rem;
 }
@@ -2761,11 +3518,43 @@ footer i {
 
 #career-galery,
 #career-last-col {
+=======
+.careers{
+    padding-top: 8rem;
+}
+.career-sub-heading h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.career-span{
+    color: #B61417;
+}
+.career-col-1 h1{
+    margin: 1rem 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.career-col-1 p{
+    font-weight: 400;
+    line-height: 18px;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.career-col-2{
+    padding: 0 12rem;
+}
+#career-galery,
+#career-last-col{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding-top: 6rem;
 }
 
 
 .team-member {
+<<<<<<< HEAD
     position: relative;
     display: inline-block;
 }
@@ -2778,10 +3567,25 @@ footer i {
     top: -2rem;
     left: 50%;
     transform: translateX(-50%) scale(0);
+=======
+    position: relative; 
+    display: inline-block;
+  }
+  
+  .team-member h1 {
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0; 
+    position: absolute;
+    top: -2rem; 
+    left: 50%;
+    transform: translateX(-50%) scale(0); 
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     /* background-color: #B61417; */
     color: #000;
     padding: 0.5rem 1rem;
     border-radius: 30px;
+<<<<<<< HEAD
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2820,32 +3624,88 @@ footer i {
 }
 
 .digi-form button:hover {
+=======
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    transition: opacity 0.3s ease; 
+  }
+  
+  .digi-form{
+    padding-bottom: 2rem;
+  }
+  .digi-form h1,
+  .digi-form h4{
+  font-size: 20px;
+  font-weight: 500;
+  }
+
+  .digi-form h2{
+    font-size: 16px;
+    font-weight: 500;  
+  }
+
+  .digi-form p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+.digi-form button{
+    margin-top: 1rem;
+    background-color: white;
+    color: #B61417;
+    border: none; 
+}
+.digi-form button:hover{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     color: #B61417;
     font-weight: 700;
     transition: all .5s;
     transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 .form {
+=======
+.form{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     padding: 1rem !important;
 }
 
 
+<<<<<<< HEAD
 .modal-title {
     color: #B61417;
     font-size: 30px;
 }
 
 .star {
+=======
+.modal-title{
+    color: #B61417;
+    font-size: 30px;
+}
+.star{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 25px;
     color: red;
 }
 
 .custom-file-input {
     display: none;
+<<<<<<< HEAD
 }
 
 .custom-file-label {
+=======
+  }
+
+  .custom-file-label {
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     display: inline-block;
     background-color: #B61417;
     color: #fff;
@@ -2853,6 +3713,7 @@ footer i {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+<<<<<<< HEAD
 }
 
 .custom-file-label:hover {
@@ -2860,6 +3721,15 @@ footer i {
 }
 
 .list-group-item {
+=======
+  }
+
+  .custom-file-label:hover {
+    background-color: none;
+  }
+
+ .list-group-item {
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     transition: color 0.3s ease-in-out;
 }
 
@@ -2868,6 +3738,7 @@ footer i {
 }
 
 .nav-last-col:hover {
+<<<<<<< HEAD
     color: #B61417;
 }
 
@@ -2891,16 +3762,40 @@ footer i {
 }
 
 .policy {
+=======
+    color: #B61417; 
+}
+
+.dot1{
+    top: 44%;
+     left: 57%;
+}
+.dot2{
+    top: 46%;
+     left: 65%;
+}
+.dot3{
+    top: 42%;
+     left: 69%;
+}
+
+.policy{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
     font-size: 14px;
     cursor: pointer;
     color: #000;
 }
+<<<<<<< HEAD
 
 a {
+=======
+a{
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
 
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .policy-container h1 {
     font-size: 30px;
 }
@@ -2951,3 +3846,24 @@ a {
     color: red;
     font-size: 20px;
 }
+=======
+.policy-container h1{
+    font-size: 30px;
+}
+.policy-container h2{
+    font-size: 24px;
+    margin-top: 2rem;
+}
+.policy-container p{
+   text-align: start;
+}
+
+ .policy-container {
+     
+      margin: 110px auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+>>>>>>> fe2772c5610309c7fedffde80506fd96301842cd
